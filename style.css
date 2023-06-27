@@ -1,0 +1,69 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 704px;
+    background: #407fa1;
+    background-image: linear-gradient(to bottom right, rgba(112, 195, 218, 0.347), rgba(221, 234, 236, 0.753));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calci {
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.calci form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.014), 5px 5px 15px rgba(0, 0, 0, 0.705);
+    background-color: rgb(155, 173, 173);
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .enter {
+    display: flex;
+    justify-content: flex_end;
+    margin: 45px 0px;
+    margin-bottom: 40px;
+    background-color: #687280;
+    border-radius: 15px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.584);
+}
+
+form .enter input {
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    box-shadow: none;
+    margin: 0;
+    height: 70px;
+    background-color: rgb(155, 173, 173);
+}
+
+form input.equal {
+    width: 145px;
+}
+
+form input.operator {
+    color: #fefefe;
+    background-color: rgb(96, 141, 141);
+}
+    
+    
